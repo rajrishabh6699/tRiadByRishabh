@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="https://i.dlpng.com/static/png/1228339-fitness-point-workout-exercise-journal-u0026-personal-trainer-body-tracker-3111-fitness-hd-workout-png-1024_1024_preview.png">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="responsiveHome.css">
+  <script src="bmi.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <a href="home.html">tRiad</a>
+      </div>
+      <span class="fa fa-bars menu-icon"></span>
+      <div class="header-right">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="contact">Contact</a>
+      </div>
+    </div>
+  </header>
+  <div class="details">
+    <h1>The BMI Calculator</h1>
+    <p>Enter the details below and check your Body Mass Index.</p>
+  </div>
+  <div class="bmi-form">
+    <form onsubmit="return false">
+      <div class="form-group">
+        <label for="fname">First Name :</label>
+        <input type="text" class="form-control" id="fname" placeholder="Enter first name" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="lname">Last Name :</label>
+        <input type="text" class="form-control" id="lname" placeholder="Enter last name" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label>Gender :</label>
+        <select class="form-control form-control-sm">
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="height">Enter your height in cm :</label>
+        <input type="text" class="form-control" id="height" placeholder="1 foot = 30.5 cm and 1 inch = 2.5 cm " value="" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="weight">Enter your weight in kgs :</label>
+        <input type="text" class="form-control" id="weight" placeholder="1kg = 1000 grams" value="" autocomplete="off">
+      </div>
+      <button class="btn btn-primary btn-lg" id="btn" onclick="myfunc()">Submit</button>
+    </form>
+  </div>
+  <div class="ans">
+    <div id="show">
+      <h1>Hey! <span id="name"></span></h1>
+      <h1>Your BMI is : <span id="calcans"></span> kg/m<sup>2</sup></sup></h1>
+      <img src="images/bmi2.png" alt="">
+    </div>
+  </div>
+  <footer>
+    <div class="bottom-container">
+      <div class="links">
+        <a class="footer-link" href="https://www.instagram.com/r_ishabhraj" target="_blank">Instagram</a>
+        <a class="footer-link" href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a class="footer-link" href="https://github.com/rajrishabh6699" target="_blank">Github</a>
+      </div>
+      <p>Made with ❤ by Rishabh Raj.</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+</body>
+
+</html>

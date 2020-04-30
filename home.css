@@ -1,0 +1,243 @@
+
+.clear {
+  clear: left;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(64, 93, 39, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+.header-left {
+  float: left;
+}
+.header-right {
+  margin-right: -25px;
+  float: right;
+}
+
+.header-left a{
+  font-size: 34px;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-left a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.menu-icon {
+  float: right;
+  padding: 21px 0;
+  display:none;
+}
+.menu-icon img{
+  height:35px;
+  width:25px;
+}
+
+
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.contact{
+  margin-right:15px;
+}
+
+
+.lesson-wrapper {
+  margin-top:70px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #3e4444;
+  text-align: center;
+      margin-bottom: 70px;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  color: white;
+}
+
+.lesson {
+  float: left;
+  width: 33.3%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+  font-size: 22px;
+}
+
+.lesson-icon p a{
+  color:white;
+}
+
+.imgsize{
+  height:200px;
+  width:200px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.bottom-container{
+  background-color: #405d27;
+  padding: 50px 0 20px;
+  margin-top: 5px;
+
+}
+
+.links{
+  margin-left:550px;
+}
+
+.bottom-container p{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  text-align: center
+}
+.bottom-container a{
+  text-align: center;
+  color:white;
+}
+.footer-link{
+  padding-left: 60px;
+}
+
+
+.details{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bmi-form{
+  width:50%;
+  margin: auto;
+  top: 50%;
+  margin-top: 50px;
+margin-bottom: 100px;
+}
+#show{
+  display:none;
+}
+.ans{
+  text-align: center;
+    padding-bottom: 20px;
+}
+
+.cgi-content{
+  margin-top: 100px;
+padding-top: 10px;
+}
+
+.cgi-content h1{
+  font-size:80px;
+}
+.cgi-content p{
+  font-size:20px;
+}
+.cgi-content button{
+  margin-top:50px;
+}
+.cgi{
+  width:50%;
+  float:left;
+}
+.cgi img{
+  height:300px;
+  width:500px;
+      margin-bottom: 15px;
+}
+.cgi h3{
+  font-size: 37px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.lwcgi{
+  background-color: white;
+}
+.lwcgih{
+  font-size: 50px;
+text-align: center;
+margin-bottom: 45px;
+}
+
+.ims{
+  height:40px;
+  width:40px;
+}
+
+.imd{
+  margin-right:20px;
+}
+.arrange{
+  margin-top: 40px;
+    margin-bottom: -25px;
+}
+
+
+
+.caro{
+  width:70%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:100px;
+  margin-bottom:30px;
+
+}
+
+.carousel-item{
+  margin-top:40px;
+  height:350px;
+}
+
+
+.carousel-item img{
+  height:350px;
+}
